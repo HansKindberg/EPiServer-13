@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+	<PropertyGroup>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<RootNamespace>Application</RootNamespace>
+		<TargetFramework>net10.0</TargetFramework>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="EPiServer.CMS" Version="13.0.0-preview4" />
+		<PackageReference Include="EPiServer.CMS.UI.AspNetIdentity" Version="13.0.0-preview4" />
+		<PackageReference Include="Wangkanai.Detection" Version="8.20.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="EPiServer" />
+		<Using Include="EPiServer.Core" />
+		<Using Include="EPiServer.DataAbstraction" />
+		<Using Include="EPiServer.DataAnnotations" />
+	</ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Include="Resources\Translations\**\*" />
+	</ItemGroup>
+</Project>

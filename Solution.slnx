@@ -1,0 +1,12 @@
+<Solution>
+	<Folder Name="/.root/">
+		<File Path=".editorconfig" />
+		<File Path=".gitignore" />
+		<File Path="NuGet.config" />
+		<File Path="ReadMe.md" />
+	</Folder>
+	<Folder Name="/Source/">
+		<Project DefaultStartup="true" Path="Source/Alloy/Alloy.csproj" />
+		<Project Path="Source/Empty/Empty.csproj" />
+	</Folder>
+</Solution>
